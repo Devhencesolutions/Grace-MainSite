@@ -73,6 +73,7 @@ import Pharmacypage from "./pharmacypages/Pharmacypage";
 import PrintStatement from "./Print/Printstatment";
 import Privacy from "./privacy/Privacy";
 import Terms from "./privacy/Terms";
+import Policies from "./privacy/Policies";
 import Registration from "./registration/Registration";
 import Signup from "./registration/Signup";
 import Scrolltop from "./scrolltop/Scrolltop";
@@ -118,6 +119,7 @@ function App() {
               <Route path="/sign-up" element={<Signup />} />
               <Route path="/privacy-policies" element={<Privacy />} />
               <Route path="/terms-condition" element={<Terms />} />
+              <Route path="/policies" element={<Policies />} />
               <Route path="/sterling-hospital" element={<Sterling />} />
               <Route path="/pharmacy-page" element={<Pharmacypage />} />
               <Route path="/patient-inquiry" element={<Patient />} />

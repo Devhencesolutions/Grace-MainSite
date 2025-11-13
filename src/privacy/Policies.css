@@ -1,0 +1,54 @@
+.policies-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+}
+
+.policies-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.policies-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+}
+
+.policies-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.policies-content iframe {
+  display: block;
+  border: none;
+}
+
+.policies-content iframe.loading {
+  opacity: 0.5;
+}
+
+.policies-content iframe.loaded {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+@media (max-width: 768px) {
+  .policies-container {
+    padding: 20px 10px;
+  }
+
+  .policies-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .policies-content iframe {
+    height: 600px !important;
+  }
+}
